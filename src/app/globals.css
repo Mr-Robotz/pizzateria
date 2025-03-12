@@ -2,14 +2,21 @@
 
 @import "tailwindcss";
 
-:root {
+/* :root {
   --redColor: #F54748;
   --grayColor: #787878;
   --pinkishColor: #FDD6D6;
-}
+} */
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+.hero-bg {
+  background-image: url('/assets/hero-svg-bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
